@@ -116,6 +116,8 @@ add_theme_support( 'custom-header', $args );
 
 add_theme_support('post-thumbnails');
 
+add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption', 'widgets' ) ); //HTML5
+
 /* Hack per visualizzare A.T. e CIRCOLARI (plugin) negli archivi @ M. Milesi 15 settembre 2014 */
 
 
