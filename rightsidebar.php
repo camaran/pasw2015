@@ -1,4 +1,4 @@
-<div id="rightsidebar" class="column">
+<aside id="rightsidebar" class="column">
 <ul>
 <?php
 if ( function_exists('generated_dynamic_sidebar')) {
@@ -8,4 +8,4 @@ if ( function_exists('generated_dynamic_sidebar')) {
 }
 ?>
 </ul>
-</div>
+</aside>
