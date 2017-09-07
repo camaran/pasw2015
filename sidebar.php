@@ -1,9 +1,9 @@
-<div id="leftsidebar" class="column">
+<aside id="leftsidebar" class="column">
   <ul>
 <?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar('sidebar-1') ) :?>
 <?php endif; ?>
   </ul>
-</div>
+</aside>
 <?php if (get_option('pasw_secondo_menu')) {
     echo '<div class="secondo-menu">';
 
